@@ -25,7 +25,7 @@ app.use(express.json({ limit: '10mb' }));
 app.use(express.json()) // Parse incoming JSON requests
 app.use(cors({
     credentials: true,
-    origin: 'http://localhost:3000'
+    origin: 'https://emp-management-frontend-5ww0.onrender.com'
 }));
 
 // Define routes

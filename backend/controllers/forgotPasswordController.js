@@ -31,7 +31,7 @@ export const forgotPassword = async (req, res) => {
             },
         });
 
-        const resetLink = `http://localhost:3000/reset-password/${resetToken}`;
+        const resetLink = `https://emp-management-frontend-5ww0.onrender.com/reset-password/${resetToken}`;
         const mailOptions = {
             from: process.env.EMAIL,
             to: email,
