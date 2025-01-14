@@ -42,7 +42,7 @@ app.use('/api/salary', SalaryRoutes)
 
 
 app.get('/', (req, res) => {
-    res.send('test')
+    res.send('hello server')
 })
 
 app.listen(PORT, () => {
