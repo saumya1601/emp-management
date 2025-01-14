@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const axiosInstance = axios.create({
-    baseURL: 'http://localhost:4000',
+    baseURL: 'https://emp-management-backend-r1af.onrender.com',
     headers: {
         'Content-Type': 'application/json',
     },

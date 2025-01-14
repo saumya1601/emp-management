@@ -71,7 +71,7 @@ export default function ResetPassword() {
 
         try {
             const response = await axios.post(
-                `http://localhost:4000/api/auth/reset-password/${token}`,
+                `https://emp-management-backend-r1af.onrender.com/api/auth/reset-password/${token}`,
                 { newPassword }
             );
 

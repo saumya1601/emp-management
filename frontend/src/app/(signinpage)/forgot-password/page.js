@@ -48,7 +48,7 @@ export default function ForgotPassword() {
 
     if (email) {
       try {
-        const response = await axios.post("http://localhost:4000/api/auth/forgot-password", { email });
+        const response = await axios.post("https://emp-management-backend-r1af.onrender.com/api/auth/forgot-password", { email });
         console.log("Backend response:", response.data);  // Log the backend response
 
         // Adjust the check to match the backend response structure
